@@ -42,12 +42,13 @@
     font-size: 2.5rem;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 750px) {
   .navbar {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 1rem;
+    height: auto;
   }
   .navbar .icon {
     font-size: 2.2rem;
